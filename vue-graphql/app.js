@@ -12,6 +12,7 @@ var schema = require('./graphql/bookSchemas');
 var cors = require("cors");
 
 var app = express();
+console.log(app);
 
 app.use('*', cors());
 app.use('/graphql', cors(), graphqlHTTP({
