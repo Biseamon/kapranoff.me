@@ -28,5 +28,5 @@ jobs:
     - run: cd kapranoff_me   
     - run: npm i
     - run: npm i -g @quasar/cli
-    - run: quasar dev
     - run: quasar build
+    - run: quasar dev
