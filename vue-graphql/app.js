@@ -15,6 +15,7 @@ var app = express();
 console.log(app);
 
 app.use('*', cors());
+console.log(app);
 app.use('/graphql', cors(), graphqlHTTP({
   schema: schema,
   rootValue: global,
